@@ -1,0 +1,17 @@
+--create database bala259;
+
+--show databases;
+
+--use bala259;
+
+--source C:\SOftwares\clearwater.sql
+
+--use clearwater
+
+--select item_id,color,qoh from inventory;
+
+--select inv_id,item_size,qoh from inventory where color = 'Spruce';
+
+--select order_id,order_date,meth_pmt, first,last from customer,cust_order where customer.cust_id = cust_order.cust_id;
+
+--select shipment_line.shipment_id,date_received,date_expected from shipment_line INNER JOIN shipment ON shipment_line.shipment_id = shipment.shipment_id;
